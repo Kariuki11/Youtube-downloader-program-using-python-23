@@ -8,6 +8,6 @@ print("Title:", yt.title)
 
 print("Views:", yt.views)
 
-yd = yt.streams.get_highest_resolution
+yd = yt.streams.get_highest_resolution()
 
-yd
+# yd.download('C:\Users\Administrator\Desktop\Youtube-downloader-program\YoutubeDownloads')
